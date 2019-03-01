@@ -2,6 +2,7 @@ package io.zipcoder;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -74,6 +75,7 @@ public class Application {
 
         public String printPetList(List<Pet> myPets) {
             Collections.sort(myPets);
+//            Arrays.sort(myPets.toArray());
             StringBuilder stringBuilder = new StringBuilder();
 //            String s  = "";
             for (Pet pets : myPets) {
